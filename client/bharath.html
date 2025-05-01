@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>S. Bharath - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #f7f8fc, #e0ecf3);
+      padding: 40px 10px;
+      color: #333;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    table {
+      width: 850px;
+      margin: auto;
+      background-color: #fff;
+      border-radius: 12px;
+      border-collapse: collapse;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      animation: slideIn 0.8s ease-in-out;
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #0073e6;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #004085;
+      border-bottom: 2px solid #0073e6;
+      margin: 15px 0;
+      padding-bottom: 5px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 15px;
+      color: #333;
+    }
+
+    p, li {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    td {
+      padding: 15px;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: #0073e6;
+      color: #fff;
+      padding: 10px;
+    }
+
+    .education-table td, .education-table th {
+      border: 1px solid #ccc;
+      padding: 12px;
+    }
+
+    tr:hover {
+      background-color: #f0f8ff;
+      transition: 0.3s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    @keyframes slideIn {
+      from {transform: translateY(20px); opacity: 0;}
+      to {transform: translateY(0); opacity: 1;}
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      table {
+        width: 95%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <tr>
+      <td>
+        <table width="100%">
+          <tr>
+            <td align="center" colspan="2">
+              <h1>S. Bharath</h1>
+              <p>
+                No.33, Bondhaiyar Kovil, Ganapathi Nagar, Saron (Post),<br>
+                Tiruvannamalai - 606601<br>
+                📞 9344103810 | 📧 bharath200219@gmail.com
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <h2>Objective</h2>
+              <p>To work in a challenging environment demanding all my skills and efforts to explore and adapt myself in different fields and realize my potential where I get the opportunity for continuous learning.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <h2>Skills</h2>
+              <ul>
+                <li><b>Amazon Web Services:</b> EC2, S3, IAM, VPC, RDS, R53, ELB, ASG, SQS, SNS, CW</li>
+                <li><b>DevOps Tools:</b> Git, Jenkins, Docker, Kubernetes, Terraform</li>
+                <li><b>Programming Languages:</b> HTML, CSS, MySQL, Python</li>
+                <li><b>Networking:</b> CCNA</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <h2>Projects</h2>
+              <h3>Production/Disaster Recovery</h3>
+              <ul>
+                <li><b>Assessment:</b> Identify critical systems and data that need to be replicated for disaster recovery.</li>
+                <li><b>Design:</b> Use AWS services like EC2, RDS, S3, etc.</li>
+                <li><b>Implementation:</b> Configure replication, automate deployments using CloudFormation or Terraform.</li>
+                <li><b>Testing:</b> Test failovers and conduct drills.</li>
+                <li><b>Monitoring:</b> Ensure system health and updates.</li>
+                <li><b>Documentation:</b> Guide and train staff.</li>
+              </ul>
+
+              <h3>CI/CD Pipeline</h3>
+              <ul>
+                <li><b>Version Control:</b> Git</li>
+                <li><b>CI:</b> Jenkins, GitLab CI, Travis CI</li>
+                <li><b>Artifacts:</b> Nexus or JFrog</li>
+                <li><b>CD:</b> Ansible, Puppet, Chef</li>
+                <li><b>IaC:</b> Terraform, AWS CloudFormation</li>
+                <li><b>Monitoring:</b> Prometheus, ELK Stack, Grafana</li>
+                <li><b>Security:</b> SonarQube, OWASP ZAP</li>
+                <li><b>Feedback:</b> Continuous improvement via user input</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <h2>Course Completion</h2>
+              <ul>
+                <li>AWS Cloud and DevOps at Greens Technology</li>
+                <li>CCNA at Greens Technology</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <table class="education-table" width="100%">
+                <tr>
+                  <td colspan="4" align="center"><h2>Education</h2></td>
+                </tr>
+                <tr>
+                  <th>Course / Degree</th>
+                  <th>Institution</th>
+                  <th>Grade / Score</th>
+                  <th>Year</th>
+                </tr>
+                <tr>
+                  <td>Bachelor's of Computer Application</td>
+                  <td>Hindustan Institute of Technology & Science, Chennai</td>
+                  <td>CGPA - 8.2</td>
+                  <td>2021 - 2024</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
